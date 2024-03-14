@@ -1,0 +1,42 @@
+-mengintal npm init -y (✔)
+-selanjutknya ubah main pada package json dari inde.js menjadi app.js(✔)
+-buat file app.js(✔)
+-biat fplder db/connection.js    (✔)
+-menginstall npm install express , body-parser mysql2 oors(✔)
+-menginstakk npm install nodemon --save -dev (✔)
+-menginstall npm i -g nodemon(✔)
+buat file dengan nama .gitignore(✔)
+-configurasi db/connection.js ke mysql(✔)
+-buat database dengan nama smk_bazma_todo
+-konfigurasi app.js(✔)
+-buat table todo : id,tittle,description()
+create table todo (
+  id int PRIMARY KEY auto_increment,
+    title varchar(255),
+
+       id int PRIMARY KEY auto_increment,
+       title varchar(255) not null,
+    description text );
+-jalankan nodemon(✔)
+    -konfigurasi membaca file todo rest api(✔)
+    - menjalankan get todos menggunakan thunder client()
+    -menambahkan data todo rest api(✔)
+    -menjalankan menambahkan data baru todo rest api menggunakan thunder clients()
+    -setting headersnya = accept = application json
+    -{tugas}membuat validation untuk mengirim data todo yang wajib di isikan artinya validasi tersebut harus berjalan
+
+
+    "title.required" : "totle wajib di isikan"
+    "title.min" : "title minimal 1 karakter"
+    "title.max" : "title maximal 255 karakter"
+
+    -konfigurasi mengubah data todo berdasarkan id rest api menggunakan thunder clients (✔)
+    -{tugas} melakukan validation ketika update tiodak boleh kosong sama dengan mengirim data ()
+    "title.rquired : title wajib di isikan,",
+    'title.min : 'minimal 1 karakter'',
+    'title.max : 'title maksimal 255 karakter''
+    -konfigurasi delete data todo  berdasarkan id rest api menggunakan thunder clients(✔)
+    -konfigurasi melihat data berdasarkan id rest api menggunakan thunder client(✔)
+    -konfigurasi bug afffecRows menjadi length()
+    -membuat folder helper 
+    -membuat file responded.js
